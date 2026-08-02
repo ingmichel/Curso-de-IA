@@ -12,3 +12,13 @@ ni cname ni www en el hosting ya que vercel lo hace automaticamente por nosotros
 
 Me quedé:
 1:03 min
+
+la opcion /compact sirve para reducir el porcentaje del contexto de la session actual.
+es bueno hacer /compact luego de consumido el 40% del contexto actual en virtud de mejorar
+las respuestas de la IA.
+
+el plan pro tiene un limite de uso de 5 horas y el semanal se reestablece semanal, importante no gastar el semanal de una vez
+
+
+Me quedé:
+1:40 min
