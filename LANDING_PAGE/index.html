@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sonrisa Imperial — Clínica Dental | Agenda tu cita</title>
+  <meta name="description" content="Clínica dental Sonrisa Imperial. Odontología general, estética y ortodoncia con atención personalizada. Agenda tu cita en menos de un minuto." />
+  <meta name="theme-color" content="#0E2A33" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Sonrisa Imperial — Clínica Dental" />
+  <meta property="og:description" content="Agenda tu cita en menos de un minuto. Odontología general, estética y ortodoncia." />
+  <meta property="og:type" content="website" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400..600&family=Playfair+Display:ital,wght@0,500..600;1,500..600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦷</text></svg>" />
+</head>
+<body>
+
+  <a class="skip-link" href="#agendar">Ir a agendar cita</a>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header" id="header">
+    <div class="container header__inner">
+      <a class="logo" href="#inicio" aria-label="Sonrisa Imperial, inicio">
+        <span class="logo__mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 3c-2 0-2.5 1-4.5 1S4 3.6 4 6.5c0 3 1 4.5 1.5 7C6 15.6 6 21 8 21s1.7-4.5 4-4.5S12.5 21 14.5 21c2 0 2-5.4 2.5-7.5.5-2.5 1.5-4 1.5-7C18.5 3.6 18.5 4 16.5 4S14 3 12 3z"/>
+          </svg>
+        </span>
+        <span class="logo__text">
+          <span class="logo__name">Sonrisa Imperial</span>
+          <span class="logo__sub">Clínica Dental</span>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Navegación principal">
+        <a href="#servicios">Servicios</a>
+        <a href="#clinica">La clínica</a>
+        <a href="#preguntas">Preguntas</a>
+      </nav>
+
+      <a class="btn btn--primary btn--sm header__cta" href="#agendar">Agendar cita</a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="inicio">
+      <div class="container hero__inner">
+        <div class="hero__content reveal">
+          <p class="eyebrow">Odontología general, estética y ortodoncia</p>
+          <h1>Tu sonrisa merece<br /><em>un trato imperial.</em></h1>
+          <p class="hero__lead">
+            Atención personalizada, tecnología moderna y un equipo que se toma
+            el tiempo de explicarte cada paso. Reserva tu primera valoración
+            sin compromiso.
+          </p>
+
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#agendar">Agendar mi cita</a>
+            <a class="btn btn--ghost" href="tel:+10000000000">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/>
+              </svg>
+              Llamar ahora
+            </a>
+          </div>
+
+          <ul class="hero__trust">
+            <li><strong>+12</strong> años de experiencia</li>
+            <li><strong>4.9/5</strong> valoración de pacientes</li>
+            <li><strong>Sin</strong> costo la primera valoración</li>
+          </ul>
+        </div>
+
+        <div class="hero__card reveal" aria-hidden="false">
+          <div class="mini-card">
+            <p class="mini-card__label">Próxima disponibilidad</p>
+            <p class="mini-card__value">Esta semana</p>
+            <ul class="mini-card__slots">
+              <li>Lun – Vie · 9:00 – 19:00</li>
+              <li>Sábados · 9:00 – 14:00</li>
+            </ul>
+            <a class="btn btn--primary btn--block" href="#agendar">Ver horarios y agendar</a>
+            <p class="mini-card__note">Confirmamos tu cita por WhatsApp en menos de 24 h.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICIOS ============ -->
+    <section class="section" id="servicios">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Servicios</p>
+          <h2>Todo lo que tu sonrisa necesita, en un solo lugar</h2>
+        </header>
+
+        <ul class="grid grid--4 services">
+          <li class="card reveal">
+            <span class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3c-2 0-2.5 1-4.5 1S4 3.6 4 6.5c0 3 1 4.5 1.5 7C6 15.6 6 21 8 21s1.7-4.5 4-4.5S12.5 21 14.5 21c2 0 2-5.4 2.5-7.5.5-2.5 1.5-4 1.5-7C18.5 3.6 18.5 4 16.5 4S14 3 12 3z"/></svg>
+            </span>
+            <h3>Odontología general</h3>
+            <p>Limpiezas, empastes y revisiones preventivas para mantener tu boca sana durante todo el año.</p>
+          </li>
+
+          <li class="card reveal">
+            <span class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.9 4.6 5 .4-3.8 3.3 1.2 4.9L12 13.6 7.7 16.2l1.2-4.9L5.1 8l5-.4L12 3z"/></svg>
+            </span>
+            <h3>Estética dental</h3>
+            <p>Blanqueamiento y carillas con resultados naturales, diseñados según la forma de tu rostro.</p>
+          </li>
+
+          <li class="card reveal">
+            <span class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9h16"/><path d="M4 15h16"/><circle cx="8" cy="9" r="1.6"/><circle cx="16" cy="15" r="1.6"/></svg>
+            </span>
+            <h3>Ortodoncia</h3>
+            <p>Brackets estéticos y alineadores invisibles con seguimiento cercano en cada etapa.</p>
+          </li>
+
+          <li class="card reveal">
+            <span class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-4.6-7-9.6A4.4 4.4 0 0 1 12 8a4.4 4.4 0 0 1 7 3.4c0 5-7 9.6-7 9.6z"/></svg>
+            </span>
+            <h3>Implantes</h3>
+            <p>Recupera la función y la estética de tus dientes con soluciones fijas y duraderas.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ CLÍNICA / CONFIANZA ============ -->
+    <section class="section section--soft" id="clinica">
+      <div class="container split">
+        <div class="split__text reveal">
+          <p class="eyebrow">La clínica</p>
+          <h2>Una consulta tranquila, sin prisas y sin sorpresas</h2>
+          <p>
+            En Sonrisa Imperial creemos que una buena atención empieza por
+            escuchar. Por eso tu primera visita incluye una valoración completa,
+            un plan de tratamiento claro y el presupuesto por escrito antes de
+            empezar.
+          </p>
+
+          <ul class="checklist">
+            <li>Diagnóstico con radiografía digital de baja radiación</li>
+            <li>Presupuesto cerrado, sin costos ocultos</li>
+            <li>Planes de pago en cuotas sin intereses</li>
+            <li>Protocolos de esterilización certificados</li>
+          </ul>
+
+          <a class="btn btn--primary" href="#agendar">Reservar valoración</a>
+        </div>
+
+        <figure class="split__aside reveal">
+          <blockquote>
+            “Es la primera vez que salgo de una clínica dental entendiendo
+            exactamente qué me hicieron y por qué. El trato fue impecable.”
+          </blockquote>
+          <figcaption>
+            <strong>María L.</strong>
+            <span>Paciente desde 2022</span>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============ AGENDAR (CONVERSIÓN) ============ -->
+    <section class="section booking" id="agendar">
+      <div class="container booking__inner">
+
+        <div class="booking__intro reveal">
+          <p class="eyebrow">Agenda tu cita</p>
+          <h2>Reserva en menos de un minuto</h2>
+          <p>
+            Completa el formulario y nuestro equipo te confirmará el horario
+            por WhatsApp o teléfono. Si prefieres, también puedes escribirnos
+            directamente.
+          </p>
+
+          <ul class="contact-list">
+            <li>
+              <span class="contact-list__label">Teléfono</span>
+              <a href="tel:+10000000000">+1 (000) 000-0000</a>
+            </li>
+            <li>
+              <span class="contact-list__label">WhatsApp</span>
+              <a href="https://wa.me/10000000000" target="_blank" rel="noopener">Enviar mensaje</a>
+            </li>
+            <li>
+              <span class="contact-list__label">Dirección</span>
+              <span>Av. Principal 123, Local 4 — Ciudad</span>
+            </li>
+            <li>
+              <span class="contact-list__label">Horario</span>
+              <span>Lun–Vie 9:00–19:00 · Sáb 9:00–14:00</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="booking__form-wrap reveal">
+          <form class="form" id="booking-form" novalidate>
+            <h3 class="form__title">Datos de la cita</h3>
+
+            <div class="field">
+              <label for="nombre">Nombre completo <span aria-hidden="true">*</span></label>
+              <input type="text" id="nombre" name="nombre" autocomplete="name" placeholder="Ej. Ana Martínez" required />
+              <p class="field__error" data-error-for="nombre"></p>
+            </div>
+
+            <div class="field-row">
+              <div class="field">
+                <label for="telefono">Teléfono <span aria-hidden="true">*</span></label>
+                <input type="tel" id="telefono" name="telefono" autocomplete="tel" placeholder="+1 000 000 0000" required />
+                <p class="field__error" data-error-for="telefono"></p>
+              </div>
+
+              <div class="field">
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" name="email" autocomplete="email" placeholder="ana@correo.com" />
+                <p class="field__error" data-error-for="email"></p>
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="servicio">Motivo de la consulta <span aria-hidden="true">*</span></label>
+              <select id="servicio" name="servicio" required>
+                <option value="">Selecciona una opción</option>
+                <option>Primera valoración</option>
+                <option>Limpieza dental</option>
+                <option>Estética dental / blanqueamiento</option>
+                <option>Ortodoncia</option>
+                <option>Implantes</option>
+                <option>Urgencia / dolor</option>
+                <option>Otro</option>
+              </select>
+              <p class="field__error" data-error-for="servicio"></p>
+            </div>
+
+            <div class="field-row">
+              <div class="field">
+                <label for="fecha">Fecha preferida <span aria-hidden="true">*</span></label>
+                <input type="date" id="fecha" name="fecha" required />
+                <p class="field__error" data-error-for="fecha"></p>
+              </div>
+
+              <div class="field">
+                <span class="field__legend">Horario preferido</span>
+                <div class="choice-group" role="radiogroup" aria-label="Horario preferido">
+                  <label class="choice">
+                    <input type="radio" name="horario" value="Mañana" checked />
+                    <span>Mañana</span>
+                  </label>
+                  <label class="choice">
+                    <input type="radio" name="horario" value="Tarde" />
+                    <span>Tarde</span>
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="mensaje">Comentario <span class="field__optional">(opcional)</span></label>
+              <textarea id="mensaje" name="mensaje" rows="3" placeholder="Cuéntanos brevemente qué necesitas"></textarea>
+            </div>
+
+            <label class="checkbox">
+              <input type="checkbox" id="consentimiento" name="consentimiento" required />
+              <span>Acepto ser contactado para confirmar mi cita y he leído la política de privacidad.</span>
+            </label>
+            <p class="field__error" data-error-for="consentimiento"></p>
+
+            <button type="submit" class="btn btn--primary btn--block btn--lg">Solicitar cita</button>
+            <p class="form__note">Te confirmamos la cita en menos de 24 horas. Sin compromiso.</p>
+
+            <p class="form__status" id="form-status" role="status" aria-live="polite"></p>
+          </form>
+
+          <!-- Estado de éxito -->
+          <div class="success" id="success-panel" hidden>
+            <span class="success__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+            </span>
+            <h3>¡Solicitud recibida!</h3>
+            <p id="success-detail">Gracias por confiar en nosotros. Nuestro equipo se pondrá en contacto contigo para confirmar el horario.</p>
+            <button type="button" class="btn btn--ghost btn--sm" id="reset-form">Agendar otra cita</button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="section section--soft" id="preguntas">
+      <div class="container container--narrow">
+        <header class="section__head reveal">
+          <p class="eyebrow">Preguntas frecuentes</p>
+          <h2>Antes de tu primera visita</h2>
+        </header>
+
+        <div class="faq reveal">
+          <details>
+            <summary>¿La primera valoración tiene costo?</summary>
+            <p>No. La primera valoración, que incluye revisión y plan de tratamiento, es gratuita y sin compromiso.</p>
+          </details>
+          <details>
+            <summary>¿Cuánto dura la consulta?</summary>
+            <p>Entre 30 y 45 minutos. Reservamos el tiempo suficiente para revisarte con calma y resolver todas tus dudas.</p>
+          </details>
+          <details>
+            <summary>¿Puedo pagar en cuotas?</summary>
+            <p>Sí. Ofrecemos planes de pago en cuotas sin intereses para tratamientos de ortodoncia, implantes y estética.</p>
+          </details>
+          <details>
+            <summary>¿Atienden urgencias?</summary>
+            <p>Sí. Si tienes dolor, selecciona “Urgencia / dolor” en el formulario o llámanos y buscaremos el primer hueco disponible.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CTA FINAL ============ -->
+    <section class="cta-final">
+      <div class="container cta-final__inner reveal">
+        <h2>Da el primer paso hacia tu mejor sonrisa</h2>
+        <p>Agenda tu valoración gratuita hoy mismo.</p>
+        <a class="btn btn--gold" href="#agendar">Agendar mi cita</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="logo__name">Sonrisa Imperial</span>
+        <p>Clínica dental · Av. Principal 123, Local 4 — Ciudad</p>
+      </div>
+      <div class="footer__meta">
+        <a href="tel:+10000000000">+1 (000) 000-0000</a>
+        <a href="mailto:citas@sonrisaimperial.com">citas@sonrisaimperial.com</a>
+      </div>
+      <p class="footer__legal">© <span id="year">2026</span> Sonrisa Imperial. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
